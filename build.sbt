@@ -11,7 +11,7 @@ val buildSettings = Defaults.coreDefaultSettings ++ Seq(
 lazy val macros = project.in(file("./macros")).settings(
   buildSettings ++ Seq(
     libraryDependencies ++= Seq(
-      "org.scalameta" %% "scalameta" % "0.20.0",
+      "org.scalameta" %% "scalameta" % "1.0.0",
       "com.typesafe.play" %% "play-json" % "2.5.4"
     ),
     name := "macros"
